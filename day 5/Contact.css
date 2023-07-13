@@ -1,0 +1,17 @@
+.c{
+    background-image: url(contact.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:100vh;
+}
+.co{
+    background-color: grey;
+    background: transparent;
+    /* backdrop-filter: blur(20px); */
+    background: radial-gradient(circle, rgba(222,222,229,0) 0%, rgb(223, 233, 160) 100%);
+    width:60vw;
+    height: 60vh;
+    border-radius: 10px;
+    text-align: left;
+}

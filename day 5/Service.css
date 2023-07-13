@@ -1,0 +1,18 @@
+.service{
+    background-image: url(7053232.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.ser{
+    margin-left:271px ;
+    background-color: grey;
+    background: transparent;
+    background-position: center;
+    backdrop-filter: blur(px); 
+    background: radial-gradient(circle, rgba(173, 173, 220, 0.403) 0%, rgb(221, 225, 226) 100%);
+    width:62vw;
+    height: 80vh;
+    border-radius: 10px;
+}

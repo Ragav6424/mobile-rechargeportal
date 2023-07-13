@@ -1,0 +1,18 @@
+.ab{
+    background-image: url("MobilePe_about.svg");
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:100vh;
+}
+.about{
+    margin-left:271px ;
+    background-color: grey;
+    background: transparent;
+    background-position: center;
+    backdrop-filter: blur(2px); 
+    background: radial-gradient(circle, rgba(222,222,229,0) 0%, rgb(235, 239, 210) 100%);
+    width:62vw;
+    height: 80vh;
+    border-radius: 10px;
+}

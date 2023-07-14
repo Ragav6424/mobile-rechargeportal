@@ -1,0 +1,76 @@
+.service{
+    background-image: url(7053232.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.ser{
+    margin-left:271px ;
+    background-color: grey;
+    background: transparent;
+    background-position: center;
+    backdrop-filter: blur(px); 
+    background: radial-gradient(circle, rgba(173, 173, 220, 0.403) 0%, rgb(221, 225, 226) 100%);
+    width:62vw;
+    height: 70vh;
+    border-radius: 10px;
+}
+  .input-box{
+    position: relative;
+    padding: relative;
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid rgb(86, 164, 188);
+    margin: 30px 0;
+}
+.btn{
+    width:10%;
+    height: 45px;
+    background:#162938;
+    border:none;
+    outline:none;
+    border-radius: 6px;
+    cursor:pointer;
+    font-size:1em;
+    color:white;
+    font-weight: 500;
+    text-align: center;
+    display: inline; padding: 10px 24px;
+    
+}
+.input-box label {
+    position: absolute;
+    top: 50%;
+    left:5px;
+    transform: translateY(-50%);
+    font-size:1em;
+    color: black;
+    font-weight: 500;
+    pointer-events: none;
+    transition: .5s;
+}
+.input-box input:focus~label,
+.input-box input:valid~label{
+    top:-5px;
+}
+.remember-forgot{
+    font-size: .9em;
+    color: #162938;
+    font-weight: 500;
+    margin: -15px 0 15px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.remember-forgot label input{
+    accent-color: black;
+    margin-right: 3px;
+}
+.remember-forgot a {
+    color: black;
+    text-decoration: none;
+}
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
